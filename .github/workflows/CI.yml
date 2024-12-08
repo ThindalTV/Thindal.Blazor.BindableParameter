@@ -1,0 +1,13 @@
+# Compile and run tests before approving a pull request
+
+name: Continuous Integration
+on:
+  pull_request:
+      branches: [ master ]
+jobs:
+  BuildTest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do nothing
+        run: echo "Todo"  
+  

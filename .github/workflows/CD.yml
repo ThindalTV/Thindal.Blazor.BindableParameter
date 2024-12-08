@@ -1,0 +1,16 @@
+# Deploy generator to NuGet
+# Very todo
+
+name: Continuous Deployment
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'The branch to build'
+        required: true
+jobs:
+  BuildTest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do nothing
+        run: echo "Todo" 
