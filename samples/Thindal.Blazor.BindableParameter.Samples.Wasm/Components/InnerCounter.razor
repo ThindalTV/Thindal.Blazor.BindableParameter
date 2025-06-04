@@ -1,0 +1,10 @@
+﻿<h3>InnerCounter</h3>
+Count in child: @Count
+
+<button @onclick="IncrementCount">Increment from child</button>
+@code {
+    private void IncrementCount()
+    {
+        Count++;
+    }
+}

@@ -7,8 +7,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFACB510-A07
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{838F102C-BB2B-4EE6-8129-98E5FDCAC476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thindal.Blazor.BindableParameter.Samples.Wasm", "samples\Thindal.Blazor.BindableParameter.Samples.Wasm\Thindal.Blazor.BindableParameter.Samples.Wasm.csproj", "{5A227174-98A2-452B-A119-F034064E2D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thindal.Blazor.BindableParameter.Samples.Server", "samples\Thindal.Blazor.BindableParameter.Samples.Server\Thindal.Blazor.BindableParameter.Samples.Server.csproj", "{7C3D090A-32BC-465D-908F-05AB2824F545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thindal.Blazor.BindableParameter", "src\Thindal.Blazor.BindableParameter\Thindal.Blazor.BindableParameter.csproj", "{547CC6F1-774F-42E2-B806-E05A84D58D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thindal.Blazor.BindableParameter.SourceGenerator", "src\Thindal.Blazor.BindableParameter.SourceGenerator\Thindal.Blazor.BindableParameter.SourceGenerator.csproj", "{58AFA0C5-8B33-424C-A293-12979BB049A8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A227174-98A2-452B-A119-F034064E2D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A227174-98A2-452B-A119-F034064E2D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A227174-98A2-452B-A119-F034064E2D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A227174-98A2-452B-A119-F034064E2D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3D090A-32BC-465D-908F-05AB2824F545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3D090A-32BC-465D-908F-05AB2824F545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3D090A-32BC-465D-908F-05AB2824F545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3D090A-32BC-465D-908F-05AB2824F545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547CC6F1-774F-42E2-B806-E05A84D58D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547CC6F1-774F-42E2-B806-E05A84D58D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547CC6F1-774F-42E2-B806-E05A84D58D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547CC6F1-774F-42E2-B806-E05A84D58D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AFA0C5-8B33-424C-A293-12979BB049A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AFA0C5-8B33-424C-A293-12979BB049A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AFA0C5-8B33-424C-A293-12979BB049A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AFA0C5-8B33-424C-A293-12979BB049A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A227174-98A2-452B-A119-F034064E2D59} = {838F102C-BB2B-4EE6-8129-98E5FDCAC476}
+		{7C3D090A-32BC-465D-908F-05AB2824F545} = {838F102C-BB2B-4EE6-8129-98E5FDCAC476}
+		{547CC6F1-774F-42E2-B806-E05A84D58D19} = {CFACB510-A072-4941-933F-9555419FB080}
+		{58AFA0C5-8B33-424C-A293-12979BB049A8} = {CFACB510-A072-4941-933F-9555419FB080}
 	EndGlobalSection
 EndGlobal

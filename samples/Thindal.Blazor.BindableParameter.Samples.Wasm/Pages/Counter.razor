@@ -1,0 +1,19 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+currentCount in Parent: @currentCount
+
+<button class="btn btn-primary" @onclick="IncrementCount">Increment count in parent</button>
+
+<Thindal.Blazor.BindableParameter.Samples.Wasm.Components.InnerCounter @bind-Count="currentCount" />
+
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
